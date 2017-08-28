@@ -1,0 +1,36 @@
+//
+//  PrefixHeader.pch
+//  LiaoNiang
+//
+//  Created by Jacob on 8/22/16.
+//  Copyright © 2016 Jacob. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#ifdef __OBJC__
+
+#define var double
+
+
+#import <Masonry/Masonry.h>
+#import <SDWebImage/UIImageView+WebCache.h>
+#import <MJExtension/MJExtension.h>
+#import <BlocksKit+UIKit.h>
+#import <ReactiveCocoa/ReactiveCocoa.h>
+#import "UIView+UIViewExtention.h"
+#import <DSRouter/DSRouter.h>
+#import "JCDefine.h"
+#import "JCGlobay.h"
+#import "UIColor+HXRandomColor.h"
+#import "AppDelegate.h"
+#import "NSString+LNHelper.h"
+#import "CalcButtonView.h"
+
+#endif
+
+#endif /* PrefixHeader_pch */

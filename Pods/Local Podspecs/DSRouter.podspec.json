@@ -1,0 +1,22 @@
+{
+  "name": "DSRouter",
+  "version": "0.1.1",
+  "summary": "A native in-app URL router for iOS.",
+  "homepage": "https://github.com/JacobChenBoBo/DSRouter.git",
+  "authors": {
+    "JacobChenBoBo": "JacobChenBo@outlook.com"
+  },
+  "source": {
+    "git": "https://github.com/JacobChenBoBo/DSRouter.git",
+    "tag": "0.1.1"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source_files": "DSRouter/DSRouter.{h,m}",
+  "requires_arc": true,
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  }
+}
